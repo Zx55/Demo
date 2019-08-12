@@ -50,3 +50,22 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### VS Code ###
+.vscode/
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr

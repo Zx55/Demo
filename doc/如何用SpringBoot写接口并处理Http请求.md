@@ -18,10 +18,10 @@
 
 ![image-20190812151618669](./img/image-20190812151618669.png)
 
-项目结构如图，(一些无用文件我删掉了，不动它也行)，按上图所示新建一个`controller`和`modle`，`modle`是要返回数据的模型，比如我要返回一个学生
+项目结构如图，(一些无用文件我删掉了，不动它也行)，按上图所示新建一个`controller`和`model`，`model`是要返回数据的模型，比如我要返回一个学生
 
 ```java
-package com.example.demo.modle;
+package com.example.demo.model;
 
 public class Student {
     private int id;
@@ -66,7 +66,7 @@ public class Student {
 ```java
 package com.example.demo.controller;
 
-import com.example.demo.modle.Student;
+import com.example.demo.model.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

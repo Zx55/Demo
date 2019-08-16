@@ -112,7 +112,7 @@ public class HelloController {
 
 看看我们前端代码是怎么写的
 
-```vue
+```js
 <template>
     <div id="home">
         <button v-on:click="getmsg">返回json</button>
